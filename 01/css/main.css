@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container > div {
+    width: 25%;
+    height: 25%;
+    background-color: deepskyblue;
+    border: 1px solid aliceblue;
+}
