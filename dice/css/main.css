@@ -1,0 +1,17 @@
+main {
+    height: 100vh;
+    background-color: ivory;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.dice {
+    font-size: 4em;
+}
